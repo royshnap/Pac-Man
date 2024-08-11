@@ -122,7 +122,7 @@ void Menu::instructions() const
 	std::cout << "Watch out from the Ghosts (marked $)!\n" << "if they touch you, you will lose a life, you got only 3!" << std::endl;
 	//keys
 	std::cout << std::endl << "KEYS:" << std::endl;
-	std::cout << "Up -> w/W" << std::endl << "Left -> a/A" << std::endl << "Down -> x/X" << std::endl << "Right -> d/D" << std::endl << "Stay -> s/S" << std::endl;
+	std::cout << "Up -> w/W" << std::endl << "Left -> a/A" << std::endl << "Down -> s/S" << std::endl << "Right -> d/D" << std::endl << "Stay -> f/F" << std::endl;
 
 	std::cout << std::endl << "To return menu press 9" << std::endl;
 	while (_getch() != '9');
