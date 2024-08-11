@@ -48,9 +48,9 @@ void GameObject::setDirection(const char _direction)
 		direction = LEFT;
 	else if (_direction == 'd' || _direction == 'D' || _direction == RIGHT)
 		direction = RIGHT;
-	else if (_direction == 'x' || _direction == 'X' || _direction == DOWN)
+	else if (_direction == 's' || _direction == 'S' || _direction == DOWN)
 		direction = DOWN;
-	else if (_direction == 's' || _direction == 'S' || _direction == STAY)
+	else if (_direction == 'f' || _direction == 'F' || _direction == STAY)
 		direction = STAY;
 
 }
